@@ -12,7 +12,9 @@
     "postinstall": "typings install",
     "start": "gulp",
     "test": "gulp test",
-    "coveralls": "node ./node_modules/coveralls/bin/coveralls.js < ./report/remap/lcov.info"
+    "coveralls": "node ./node_modules/coveralls/bin/coveralls.js < ./report/remap/lcov.info",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "angular2",
@@ -49,7 +51,7 @@
     "rxjs": "5.0.0-beta.6",
     "systemjs": "^0.19.29",
     "zone.js": "^0.6.12",
-	"del": "~2.2.0",
+    "del": "~2.2.0",
     "glob": "^7.0.3",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
@@ -79,10 +81,12 @@
     "tslint": "^3.10.2",
     "typings": "^1.0.4",
     "yargs": "^4.7.1",
-    "codelyzer": "0.0.19"
+    "codelyzer": "0.0.19",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "browser-sync": "^2.12.8",
     "connect-history-api-fallback": "^1.2.0"
-  }
+  },
+  "snyk": true
 }
