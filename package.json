@@ -78,7 +78,7 @@
     "traceur": "~0.0.110",
     "tslint": "^3.10.2",
     "typings": "^1.0.4",
-    "yargs": "^4.7.1",
+    "yargs": "^16.0.0",
     "codelyzer": "0.0.19"
   },
   "devDependencies": {
