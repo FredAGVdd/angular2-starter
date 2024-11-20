@@ -51,7 +51,7 @@
     "zone.js": "^0.6.12",
 	"del": "~2.2.0",
     "glob": "^7.0.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-cssnano": "^2.1.2",
     "gulp-if": "~2.0.1",
     "gulp-protractor": "^2.3.0",
@@ -78,7 +78,7 @@
     "traceur": "~0.0.110",
     "tslint": "^3.10.2",
     "typings": "^1.0.4",
-    "yargs": "^4.7.1",
+    "yargs": "^15.0.1",
     "codelyzer": "0.0.19"
   },
   "devDependencies": {
